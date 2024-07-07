@@ -36,23 +36,5 @@ function App() {
 }
 
 
-// function App() {
-//   const [currentPage, setCurrentPage] = useState('HOME');
-
-//   const handlePageChange = (pageName) => {
-//     setCurrentPage(pageName);
-//   };
-
-//   return (
-//     <div className="App">
-//       <Menu onPageChange={handlePageChange} />
-//       {currentPage === 'HOME' && <HomePage />}
-//       {currentPage === 'Podcast' && <MainContainer />}
-//       <RightMenu />
-//       <div className="background"></div>
-//     </div>
-//   );
-// }
-
 
 export default App;
